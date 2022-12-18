@@ -1,0 +1,247 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title>Prueba de Bootstrap</title> 
+    <link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head> 
+<body> 
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-4"  style="background-color:#aaa">
+        <h1>Columna 1</h1> 
+        <p>Esto es una prueba de container.</p>
+      </div>
+      <div class="col-lg-4"  style="background-color:#bbb">
+        <h1>Columna 2</h1> 
+        <p>Esto es una prueba de container.</p>
+      </div>
+      <div class="col-lg-4"  style="background-color:#ccc">
+        <h1>Columna 3</h1> 
+        <p>Esto es una prueba de container.</p>
+      </div>
+    </div>
+  </div> 
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-lg-4"  style="background-color:#aaa">
+        <h1>Columna 1</h1> 
+        <p>Esto es una prueba de container-fluid.</p>
+      </div>
+      <div class="col-lg-4"  style="background-color:#bbb">
+        <h1>Columna 2</h1> 
+        <p>Esto es una prueba de container-fluid.</p>
+      </div>
+      <div class="col-lg-4"  style="background-color:#ccc">
+        <h1>Columna 3</h1> 
+        <p>Esto es una prueba de container-fluid.</p>
+      </div>
+    </div>
+
+  </div>
+  <img src="imagenes/cinna 1.png" class ="rounded float-start" alt="cinna1">
+  <p>Esto es rounded float-start y float-end</p>
+  <img src="imagenes/cinna 2.png" class= "rounded float-end" alt="cinna2">
+<br>
+  <figure class="figure">
+
+    <img src="imagenes/cinna pajarito.png" class="figure-img img-fluid rounded" alt="...">
+
+    <figcaption class="figure-caption">Esto es una figura</figcaption>
+</figure>
+</br>
+<div class="container">
+<h1 align="center">Esto es una tabla</h1>
+<table class="table">
+
+  <thead>
+    <tr class="table-primary">
+      <th scope="col">Nro</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Apellido</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr class="table-secondary">
+      <th scope="row">1</th>
+      <td>Maximiliano</td>
+      <td>Guerra</td>
+    </tr>
+    <tr class="table-success">
+      <th scope="row">2</th>
+      <td>Erik</td>
+      <td>Thomas</td>
+    </tr>
+    <tr class="table-danger">
+      <th scope="row">3</th>
+      <td>Lucas</td>
+      <td>Gómez</td>
+    </tr>
+    <tr class="table-warning">
+      <th scope="row">4</th>
+      <td>Susan</td>
+      <td>Evergarden</td>
+    </tr>
+    <tr class="table-info">
+      <th scope="row">5</th>
+      <td>Andrés</td>
+      <td>Tisiano</td>
+    </tr>
+    <tr class="table-light">
+      <th scope="row">6</th>
+      <td>Erik</td>
+      <td>Thomas</td>
+    </tr>
+    <tr class="table-dark">
+      <th scope="row">7</th>
+      <td>Erik</td>
+      <td>Thomas</td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td>Erik</td>
+      <td>Thomas</td>
+    </tr>
+    <tr>
+      <th scope="row" class="table-success">9</th>
+      <td class="table-info">Erik</td>
+      <td class="table-danger">Thomas</td>
+    </tr>
+  </tbody>
+</table>
+<h1 align="center">Esto es un formulario</h1>
+
+<form>
+
+  <div class="mb-3">
+    <label for="idE" class="form-label">Correo</label>
+    <input type="email" class="form-control" id="idE" aria-describedby ="idEH">
+    <div id="idEH" class="form-text">Debe ser un correo válido.</div>
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+</div>
+<br>
+<div class="container">
+  <form>
+  
+    <div class="mb-3">
+      <label for="idE" class="form-label">Correo</label>
+      <input type="email" class="form-control-lg" id="idE" aria-describedby ="idEH">
+      <div id="idEH" class="form-text">Esto es una casilla grande</div>
+    </div>
+  
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control-sm" id="exampleInputPassword1">
+      <div id="idEH" class="form-text">Esto es una casilla chica</div>
+    </div>
+  
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+    </div>
+  
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+
+</br>
+<h1 align="center">Estas son alertas</h1>
+<div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>
+
+<div class="alert alert-secondary" role="alert">
+A simple secondary alert—check it out!
+</div>
+
+<div class="alert alert-success" role="alert">
+A simple success alert—check it out!
+</div>
+
+<div class="alert alert-danger" role="alert">
+A simple danger alert—check it out!
+</div>
+
+<div class="alert alert-warning" role="alert">
+A simple warning alert—check it out!
+</div>
+
+<div class="alert alert-info" role="alert">
+A simple info alert—check it out!
+</div>
+
+<div class="alert alert-light" role="alert">
+A simple light alert—check it out!
+</div>
+
+<div class="alert alert-dark" role="alert">
+A simple dark alert—check it out!
+</div>
+<h1 align="center">Estos son botones</h1>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+<button type="button" class="btn btn-link">Link</button>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</div>
+</body> 
+</html>  
+
